@@ -42,4 +42,4 @@ def amadicia_factory(applet, iid):
 if __name__ == '__main__':
 	gnomeapplet.bonobo_factory("OAFIID:Amadicia_Factory", 
 		gnomeapplet.Applet.__gtype__, 
-		"Amadicia", "0.0.0", amadicia_factory)
+		"Amadicia_Factory", "0.0.0", amadicia_factory)
