@@ -1,0 +1,11 @@
+Amadicia
+Project name generator for the Gnome panel.
+
+Installation instructions.
+
+1)	Replace $LOCATION with the location of the script in Amadicia.server.
+2)	Ensure in $LOCATION, that amadicia.py exists, is chmodded to 0755 (rwxr-xr-x).
+3)	Copy Amadicia.server to /usr/lib/bonobo/servers (as root)
+4)	Right click on the panel, Add to panel, Click Amadicia, and press Add.
+
+If you wish to submit bug reports, please do so at http://github.com/jstoker/Amadicia/issues

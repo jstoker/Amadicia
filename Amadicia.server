@@ -1,0 +1,30 @@
+<oaf_info>
+
+<oaf_server iid="OAFIID:Amadicia_Factory"
+            type="exe"
+            location="$LOCATION/amadicia.py">
+
+        <oaf_attribute name="repo_ids" type="stringv">
+                <item value="IDL:Bonobo/GenericFactory:1.0"/>
+                <item value="IDL:Bonobo/Unknown:1.0"/>
+        </oaf_attribute>
+        <oaf_attribute name="name" type="string" value="Amadicia"/>
+        <oaf_attribute name="description" type="string" value="Project Name generator"/>
+</oaf_server>
+
+<oaf_server iid="OAFIID:Amadicia"
+            type="factory" 
+            location="OAFIID:Amadicia_Factory">
+
+        <oaf_attribute name="repo_ids" type="stringv">
+                <item value="IDL:GNOME/Vertigo/PanelAppletShell:1.0"/>
+                <item value="IDL:Bonobo/Control:1.0"/>
+                <item value="IDL:Bonobo/Unknown:1.0"/>
+        </oaf_attribute>
+        <oaf_attribute name="name" type="string" value="Amadicia"/>
+        <oaf_attribute name="description" type="string" value="Project Name generator"/>
+        <oaf_attribute name="panel:category" type="string" value="Utility"/>
+        <oaf_attribute name="panel:icon" type="string" value="bug-buddy.png"/>
+</oaf_server>
+
+</oaf_info>
